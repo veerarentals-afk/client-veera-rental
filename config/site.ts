@@ -57,11 +57,6 @@ export const services = [
               "Perfect for short trips, business errands, or weekend getaways, our daily rentals provide a convenient solution with flexible terms. Enjoy a wide range of well-maintained vehicles without the hassle of long-term commitments.",
           },
           {
-            title: "Private Rentals",
-            href: "/vehicles",
-            description: "Need a vehicle for an extended period? Our private rentals offer a reliable and budget-friendly option. Ideal for personal use, temporary needs, or long-term projects, we ensure you stay on the road comfortably and confidently.",
-          },
-          {
             title: "Wedding Cars",
             href: "/vehicles",
             description: "Arrive in style with our luxury wedding car services, featuring Lexus and a wide range of premium vehicles. Make your special day unforgettable with elegance and comfort.",
