@@ -62,11 +62,6 @@ export const services = [
             description: "Need a vehicle for an extended period? Our private rentals offer a reliable and budget-friendly option. Ideal for personal use, temporary needs, or long-term projects, we ensure you stay on the road comfortably and confidently.",
           },
           {
-            title: "Rent-to-Own",
-            href: "/vehicles",
-            description: "Our rent-to-own program makes car ownership achievable and stress-free. Drive the car you want while making payments that lead to full ownership over time. No large upfront costs, just an affordable path to owning your dream vehicle.",
-          },
-          {
             title: "Rideshare Rentals",
             href: "/vehicles",
             description: "Are you a rideshare driver on platforms like Uber or Didi? We’ve got you covered with fuel-efficient, hybrid, and dependable cars designed to help you earn more. Enjoy a seamless driving experience with rentals built for your business success.",
