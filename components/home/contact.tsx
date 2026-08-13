@@ -140,9 +140,9 @@ const Contact = () => {
                               Private Rentals
                             </option>
                             {/* <option value="Rent-to-Own">Rent-to-Own</option> */}
-                            <option value="Rideshare Rentals">
+                            {/* <option value="Rideshare Rentals">
                               Rideshare Rentals
-                            </option>
+                            </option> */}
                             <option value="Mechanical Services">
                               Mechanical Services
                             </option>
