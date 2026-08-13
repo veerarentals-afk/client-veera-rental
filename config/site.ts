@@ -62,11 +62,6 @@ export const services = [
             description: "Need a vehicle for an extended period? Our private rentals offer a reliable and budget-friendly option. Ideal for personal use, temporary needs, or long-term projects, we ensure you stay on the road comfortably and confidently.",
           },
           {
-            title: "Rideshare Rentals",
-            href: "/vehicles",
-            description: "Are you a rideshare driver on platforms like Uber or Didi? We’ve got you covered with fuel-efficient, hybrid, and dependable cars designed to help you earn more. Enjoy a seamless driving experience with rentals built for your business success.",
-          },
-          {
             title: "Wedding Cars",
             href: "/vehicles",
             description: "Arrive in style with our luxury wedding car services, featuring Lexus and a wide range of premium vehicles. Make your special day unforgettable with elegance and comfort.",
