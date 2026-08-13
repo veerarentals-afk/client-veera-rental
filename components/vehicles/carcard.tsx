@@ -5,7 +5,7 @@ import {
     ChartBarStacked,
     Fuel,
     Palette,
-    Phone,
+    // Phone,
     ChevronLeft,
     ChevronRight,
 } from "lucide-react";
@@ -15,7 +15,7 @@ import { CarDetailsType } from "@/types";
 import { Button } from "../ui/button";
 import PricingDialog from "./pricingdialog";
 import { getImageURL } from "@/lib/db";
-import { contactInfo } from "@/config/site";
+// import { contactInfo } from "@/config/site";
 
 interface CarDetailsProps {
     carDetails: CarDetailsType;
@@ -61,12 +61,12 @@ const CarCard: React.FC<CarDetailsProps> = ({
         }
     };
 
-    const handleWhatsAppClick = () => {
-        const phoneNumber = contactInfo.phoneNumber;
-        const message = `Hello, I want to know more about Rent-to-own options for ${brand} ${model} ${year}. Could you provide more details?`;
-        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-        window.open(url, '_blank');
-    };
+    // const handleWhatsAppClick = () => {
+    //     const phoneNumber = contactInfo.phoneNumber;
+    //     const message = `Hello, I want to know more about Rent-to-own options for ${brand} ${model} ${year}. Could you provide more details?`;
+    //     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    //     window.open(url, '_blank');
+    // };
 
     return (
         <div className="container mx-auto p-4">
@@ -143,8 +143,8 @@ const CarCard: React.FC<CarDetailsProps> = ({
                     </div>
                 </div>
                 <div className="w-full">
-                    <div className="grid grid-cols-2 border-gray-500 w-full">
-                        <Button 
+                    <div className="w-full">
+                        {/* <Button 
                             className="p-3 bg-green-500 rounded-none text-black hover:bg-green-600 hover:text-white"
                             onClick={handleWhatsAppClick}
                         >
@@ -152,7 +152,7 @@ const CarCard: React.FC<CarDetailsProps> = ({
                                 <Phone size={20} />
                                 <div>Rent to own</div>
                             </div>
-                        </Button>
+                        </Button> */}
                         <PricingDialog carName={`${brand} ${model} ${year}`} dailyRate={daily_price} deposit={deposit} weeklyRate={(weekly_price/7)}/>
                    </div>
                 </div>
