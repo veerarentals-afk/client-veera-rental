@@ -136,9 +136,9 @@ const Contact = () => {
                               Select a package
                             </option>
                             <option value="Daily Rentals">Daily Rentals</option>
-                            <option value="Private Rentals">
+                            {/* <option value="Private Rentals">
                               Private Rentals
-                            </option>
+                            </option> */}
                             {/* <option value="Rent-to-Own">Rent-to-Own</option> */}
                             {/* <option value="Rideshare Rentals">
                               Rideshare Rentals
