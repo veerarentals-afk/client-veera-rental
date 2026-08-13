@@ -32,7 +32,7 @@ export default function Testimonials() {
   },
   {
     name: "James Sullivan",
-    feedback: "A reliable and affordable option for long-term rentals. The vehicle was comfortable and well maintained.",
+    feedback: "A reliable and affordable rental option. The vehicle was comfortable and well maintained.",
   },
   {
     name: "Ethan Cooper",
