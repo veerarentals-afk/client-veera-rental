@@ -17,7 +17,7 @@ const services: Service[] = [
     },
     {
         title: 'Flexible Plans',
-        description: 'Choose from daily rentals, long-term agreements, or even rent-to-own programs for those looking to transition to ownership.',
+        description: 'Flexible rental options designed to suit a range of travel and transportation needs.',
     },
     {
         title: 'Diverse Vehicle Fleet',
