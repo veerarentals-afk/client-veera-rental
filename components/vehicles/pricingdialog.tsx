@@ -30,7 +30,7 @@ const PricingDialog: React.FC<PricingDialogProps> = ({
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button className="p-3 bg-secondary rounded-none text-black hover:bg-secondary-dark hover:text-white">
+        <Button className="w-full p-3 bg-secondary rounded-none text-black hover:bg-secondary-dark hover:text-white">
           <div className="flex justify-center items-center gap-2">
             <div>
               <DollarSign size={20} />
