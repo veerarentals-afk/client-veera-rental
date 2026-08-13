@@ -23,7 +23,7 @@ export default function HeroSection() {
         </h4>
         <p className="max-w-lg mt-1 text-white/80 text-sm">
           Rent a car for your next trip, business, or leisure with Veera
-          Rentals. We offer services from daily rentals to long-term leasing.
+          Rentals. We offer daily rentals, wedding cars, and airport pickup services.
         </p>
         <div className="max-w-lg mt-8 grid grid-cols-1 gap-2 md:grid-cols-2 md:space-x-2 w-full md:w-auto">
           <Link href={"#about"}>
