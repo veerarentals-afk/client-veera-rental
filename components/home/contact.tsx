@@ -139,7 +139,7 @@ const Contact = () => {
                             <option value="Private Rentals">
                               Private Rentals
                             </option>
-                            <option value="Rent-to-Own">Rent-to-Own</option>
+                            {/* <option value="Rent-to-Own">Rent-to-Own</option> */}
                             <option value="Rideshare Rentals">
                               Rideshare Rentals
                             </option>
